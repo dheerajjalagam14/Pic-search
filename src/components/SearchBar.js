@@ -24,8 +24,8 @@ class SearchBar extends React.Component {
             value={this.state.term}
             onChange={e=>this.setState({ term:e.target.value})}
             />
-          <div style={{marginLeft:'5px'}} class="ui icon primary button">
-            <i class="search icon"></i>
+          <div style={{marginLeft:'5px'}} className="ui icon primary button">
+            <i className="search icon"></i>
           </div>
         </div>
       </form>
